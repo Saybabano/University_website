@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+.img-area{
+    background-image: url(Arch2O-best-universities-in-the-world-to-study-architecture-6.jpg);
+    -webkit-background-sizi:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    filter: blur(5px);
+} 
+.nav-item{
+    position: absolute;
+    top: 35px;
+    margin-left: 800px;
+    position: fixed;
+}
+.nav-link{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    font-size: 20px;
+
+}
+.nav-link:hover{
+    background-color: black;
+    color:white;
+}
+.cantainer{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+} 
+.brand{
+    position: absolute;
+    top: 15px;
+    font-size: 40px;
+    color: white;
+    text-shadow: black;
+} 
+.p1{
+    position: absolute;
+    top:15px;
+    margin-left:300px;
+    margin-top: 200px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.p2{
+    position: absolute;
+    top: 15px;
+    margin-left: 390px;
+    margin-top: 280px;
+    font-size: 20px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.button{
+    top: 15px;
+    margin-left: 550px;
+    margin-top: 360px;
+    border-radius: 6px;
+    position: absolute;
+    padding: 9px 6px;
+    border: 2px solid olive;
+}
+.button:hover{
+    background-color:none;
+    color:none;
+}
+.id{
+    background-image: url(62b2742ce4da5897e1f21138_Graduation_cap_toss_kids.jpeg);
+    -webkit-background-sizi:cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin-top: 100px;
+} 
+.h{
+    margin-top: 50px;
+    margin-left: 500px;
+} 
+.img-bg{
+    float: right;
+    margin-left: 10%;
+}
+.box{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    margin-top: 5%;
+    padding: 80px;
+    background-color:rgb(233, 165, 76);
+}
+.b{
+    border-radius: 4px;
+    padding:  5px 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 10px
+}
+.b:hover{
+    background-color:blue;
+    color:#fff3ff;
+}
+.about h2{
+    margin-top: 10%;
+    text-align: center;
+}
+.socal-media{
+    flex-basis:40% ;
+    display: flex;
+    justify-content:center;
+}
+.fa-brands{
+    border-radius: 4px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 5px;
+    background-color:#fff3ff;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    box-shadow: 10px 10px 20px black ;
+}
+
+#p{
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+.divi{
+    margin-top: 1000px;
+}
+.cover{    
+    margin-top: 5%;
+    justify-content:space-around ;
+    display: flex;
+    
+}
+.box2{
+    flex-basis: 28%;
+    background:pink; 
+    border-radius: 5px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box2:hover{
+    box-shadow: 10px 10px 20px black;
+    
+}
+h3{
+    text-align:center;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+#p1{
+    display: flex;
+    margin-left: 500px;
+}    
+
+#h1{
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.global{
+    margin-top: 50px;
+    width:100%;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: 1s;
+}
+.img{
+    width: 400px;
+    margin:0 10px ;
+    box-shadow: 10px 10px 20px black;
+
+}
+.img img{
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+.img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.head{
+    margin-left: 500px;
+}
+.our{
+    margin-left: 550px;
+    margin-top: 60px;
+}
+.facilities{
+    display: flex;
+    margin-top: 5%;
+    justify-content:space-between;
+}
+.row{
+    margin: 5px;
+    height: 420px;
+    width: 700px;
+    background-color:antiquewhite;
+    margin-top: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 44.33%;
+}
+.row:hover{
+    box-shadow: 10px 10px 20px black;
+}
+img{
+    width: 280px;
+    height: 200px;
+}
+h2{
+    text-align: center;
+    font-weight: 200px;
+    margin: 10px 0;
+}
+.blog1{
+    text-align: center;
+    margin-top:5%;
+}
+.blog{
+    width: 650px;
+    height: 900px;
+    margin-left: 30px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background-color:none;
+}
+.blog img{
+    width: 500px;
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#program{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 200px;
+}
+.blog h2{
+    margin-right: 70px;
+}
+.post{
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 2px solid black;
+    background-color:white;
+}
+.leave{
+    padding: 12px 8px ;
+    border-radius: 3px;
+    width: 450px;
+    background-color:aliceblue;
+    border: none;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+.comment{
+    width: 450px;
+    padding: 40px 10px;
+    margin-left:20px ;
+    margin-top:30px;
+    background-color: aliceblue;
+    border: none;
+}
+.button1{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.button1:hover{
+    background-color:blue;
+    color:#fff3ff;
+}
+.post h1{
+    background-color:orange;
+    text-align:center;
+    margin-bottom: 20px;
+}
+.table-box{
+    width: 30%; 
+    height: 500px;
+    border: 2px solid black;
+    float: right;
+    margin: 7rem ;
+
+}
+.table-row{
+    display: table;
+    width: 90%;
+    margin: 10px auto;
+    font-family: sans-serif;
+    background-color: transparent;
+    padding: 12px;
+    color: #696464;
+    font-size: 13px;
+    text-align: center;
+}
+.table-cell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    vertical-align: middle;
+}
+.table-box h1{
+    background-color:yellow;
+    text-align: center;
+}
+.thought{
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+    transition: 0.5s;
+}
+.col:hover{
+    box-shadow: 10px 10px 20px;
+}
+.thought-heading{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.border{
+    width:160px ;
+    height: 5px;
+    background: color #6ab04c;
+    margin: 26px auto;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+    transition: 0.5s;
+}
+.testional{
+    background-color:powderblue;
+    padding: 30px;
+    cursor: pointer;
+}
+.testional img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.stars{
+    color:rgb(240, 240, 77);
+    margin-bottom: 20px;
+}
